@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kelompok/ontologies/penyakit-apel"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kelompok/ontologies/penyakit-apel">
+    <Prefix name="" IRI="http://www.semanticweb.org/latief/ontologies/2026/4/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Bagian_Tanaman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bercak_Daun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Busuk_Buah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embun_Tepung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gejala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jamur_Upas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kanker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Penyakit_Apel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tunas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#menyerang_bagian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Batang_Keluar_Cairan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buah_Bercak_Cair"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buah_Bercak_Coklat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buah_Bercak_Hijau_Bulat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buah_Bintik_Orange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buah_Membusuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daun_Berlubang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daun_Bintik_Putih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daun_Kuning_Layu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daun_Serbuk_Hitam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamur_Botryosphaeria_Sp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamur_Cortisium_Salmonicolor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamur_Gloeosporium_Sp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamur_Marssonina_Coronaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamur_Podosphaera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kasus_Bercak_Daun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kasus_Busuk_Buah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kasus_Embun_Tepung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kasus_Jamur_Upas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kasus_Kanker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kerak_Merah_Jambu"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Batang"/>
+        <Class IRI="#Bagian_Tanaman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bercak_Daun"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buah"/>
+        <Class IRI="#Bagian_Tanaman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Busuk_Buah"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daun"/>
+        <Class IRI="#Bagian_Tanaman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embun_Tepung"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jamur_Upas"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kanker"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tunas"/>
+        <Class IRI="#Bagian_Tanaman"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Batang_Keluar_Cairan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Buah_Bercak_Cair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Buah_Bercak_Coklat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Buah_Bercak_Hijau_Bulat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Buah_Bintik_Orange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Buah_Membusuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Daun_Berlubang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Daun_Bintik_Putih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Daun_Kuning_Layu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Daun_Serbuk_Hitam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patogen"/>
+        <NamedIndividual IRI="#Jamur_Botryosphaeria_Sp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patogen"/>
+        <NamedIndividual IRI="#Jamur_Cortisium_Salmonicolor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patogen"/>
+        <NamedIndividual IRI="#Jamur_Gloeosporium_Sp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patogen"/>
+        <NamedIndividual IRI="#Jamur_Marssonina_Coronaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patogen"/>
+        <NamedIndividual IRI="#Jamur_Podosphaera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bercak_Daun"/>
+        <NamedIndividual IRI="#Kasus_Bercak_Daun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Busuk_Buah"/>
+        <NamedIndividual IRI="#Kasus_Busuk_Buah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Embun_Tepung"/>
+        <NamedIndividual IRI="#Kasus_Embun_Tepung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Jamur_Upas"/>
+        <NamedIndividual IRI="#Kasus_Jamur_Upas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kanker"/>
+        <NamedIndividual IRI="#Kasus_Kanker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gejala"/>
+        <NamedIndividual IRI="#Kerak_Merah_Jambu"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <NamedIndividual IRI="#Kasus_Bercak_Daun"/>
+        <NamedIndividual IRI="#Jamur_Marssonina_Coronaria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Bercak_Daun"/>
+        <NamedIndividual IRI="#Daun_Berlubang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Bercak_Daun"/>
+        <NamedIndividual IRI="#Daun_Bintik_Putih"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Bercak_Daun"/>
+        <NamedIndividual IRI="#Daun_Serbuk_Hitam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <NamedIndividual IRI="#Kasus_Busuk_Buah"/>
+        <NamedIndividual IRI="#Jamur_Gloeosporium_Sp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Busuk_Buah"/>
+        <NamedIndividual IRI="#Buah_Bercak_Hijau_Bulat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Busuk_Buah"/>
+        <NamedIndividual IRI="#Buah_Bintik_Orange"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Busuk_Buah"/>
+        <NamedIndividual IRI="#Buah_Membusuk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <NamedIndividual IRI="#Kasus_Embun_Tepung"/>
+        <NamedIndividual IRI="#Jamur_Podosphaera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Embun_Tepung"/>
+        <NamedIndividual IRI="#Buah_Bercak_Coklat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Embun_Tepung"/>
+        <NamedIndividual IRI="#Daun_Bintik_Putih"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <NamedIndividual IRI="#Kasus_Jamur_Upas"/>
+        <NamedIndividual IRI="#Jamur_Cortisium_Salmonicolor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Jamur_Upas"/>
+        <NamedIndividual IRI="#Daun_Kuning_Layu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Jamur_Upas"/>
+        <NamedIndividual IRI="#Kerak_Merah_Jambu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <NamedIndividual IRI="#Kasus_Kanker"/>
+        <NamedIndividual IRI="#Jamur_Botryosphaeria_Sp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Kanker"/>
+        <NamedIndividual IRI="#Batang_Keluar_Cairan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <NamedIndividual IRI="#Kasus_Kanker"/>
+        <NamedIndividual IRI="#Buah_Bercak_Cair"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#menyerang_bagian"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#menyerang_bagian"/>
+        <Class IRI="#Penyakit_Apel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#disebabkan_oleh"/>
+        <Class IRI="#Patogen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memiliki_gejala"/>
+        <Class IRI="#Gejala"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#menyerang_bagian"/>
+        <Class IRI="#Bagian_Tanaman"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
